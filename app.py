@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	return "Welcome to student records api"
+	return "BABY I LOVE YOU :*"
 
 @app.route('/students/', methods=['GET','POST'])
 def student_list():
